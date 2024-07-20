@@ -11,7 +11,7 @@ import { convertToFirebaseDatabasePathName } from '../utils';
 export const APP_NAME = 'Instagram'
 export const CLASSIFY_API = 'http://192.168.1.2:5555/classify'
 const firebaseConfig = {
-    apiKey: "AIzaSyATgIePHiOXnqlzUN4rRyyaPw4CTWH7yWA",
+    apiKey: "Your API Key",
     authDomain: "vucms-7f6fa.firebaseapp.com",
     databaseURL: "https://vucms-7f6fa.firebaseio.com",
     projectId: "vucms-7f6fa",
