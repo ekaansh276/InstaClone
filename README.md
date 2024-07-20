@@ -1,44 +1,30 @@
-# Demo 
-- [Demo Video](https://www.youtube.com/watch?v=uXKZ3sGw7oE)
-- [Release APK File](https://secufiles.com/aYb3/app-release.apk)
-# React Native Instagram Clone
+![Screenshot 2024-07-20 160129](https://github.com/user-attachments/assets/2e479afc-730f-4ac5-9b0e-c4243d553477)
+![Screenshot 2024-07-20 160156](https://github.com/user-attachments/assets/66810149-6448-4179-9a94-74d29c3ed198)
+![loginScreen](https://github.com/user-attachments/assets/77e3b872-af3a-46d7-8e3a-e4a7ba617bed)
 
-## Don't forget give me a star if you like it 😅😅 😊😊
+## HOW TO USE
+* cd InstaClone
+* npm install
+* yarn install
+* cd ios or cd android
+* pod install
+* cd ..
+* react-native run-ios or react-native run-android
 
-The 2nd project what I did with React Native.
-
-- React Native (v0.62)
-- Firebase
-- Typescript
-- React-native-navigation v5
-- Redux / Redux-thunk
-## Installation
-
-Use the package manager [YARN] to install [React Native Instagram Clone].\
-First, Install API image classification: [Here](https://github.com/iamvucms/ImageClassifyAPI/blob/master/README.md#installation)\
-Edit src/constant/index.ts
-```javascript
-export const CLASSIFY_API = 'http://YOUR_PRIVATE_IP:YOUR_PORT/classify'
-```
-```bash
-git clone https://github.com/iamvucms/react-native-instagram-clone.git
-cd react-native-instagram-clone
-yarn
-cd ios && pod install
-```
-
-
-## Usage
-
-```bash
-npx react-native run-ios
-
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
+## Dependencies
+* @react-native-community/masked-view": "^0.1.10"
+* @react-navigation/bottom-tabs": "^5.8.0"
+* @react-navigation/native": "^5.7.3"
+* @react-navigation/stack": "^5.9.0"
+* react": "16.13.1"
+* react-native": "0.63.2"
+* react-native-camera": "^3.36.0"
+* react-native-gesture-handler": "^1.7.0"
+* react-native-linear-gradient": "^2.5.6"
+* react-native-reanimated": "^1.10.2"
+* react-native-safe-area-context": "^3.1.3"
+* react-native-screens": "^2.10.1"
+* react-native-webview": "^10.6.0"
+* 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
